@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="css/home.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -23,42 +23,19 @@
             </nav>
         </div>
         <br>
-        <!-- <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-5">
-                <div>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Go-home.svg/480px-Go-home.svg.png"
-                        alt="home-image.img" style="width: 300px; height: 300px;">
-                </div>
-            </div>
-            <div class="col-md-5">
-                <div class="information">
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <h1>Number of devices: 2</h1>
-                </div>
-
-            </div>
-            <div class="col-md-1"></div>
-        </div> -->
         <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-md-4">
-                <div>
-                    <img src="http://bizweb.dktcdn.net/thumb/grande/100/289/100/products/n-kip-png.png?v=1527216519620"
-                        alt="home-image.img" style="width: 300px; height: 300px;">
+            <div class="col-md-4 col-md-offset-4">
+                <div style="text-align: center" id="getData">
+                    <button type="button" class="btn btn-success" onclick="loadInfor()">
+                        Get information
+                    </button>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="information">
-                    <h1>Socket</h1>
-                </div>
-
-            </div>
-            <div class="col-md-2"></div>
         </div>
+        <div class="row" id="dataReceive">
+
+        </div>
+        <br>
         <br>
         <div class="row">
             <div class="col-md-12" id="footer">
@@ -67,7 +44,8 @@
                 </p>
             </div>
         </div>
-        <script src="js/home.js"></script>
+    </div>
+    <script src="js/main.js"></script>
 
 
 </body>

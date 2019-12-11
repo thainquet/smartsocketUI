@@ -69,10 +69,19 @@
         margin: 0px;
     }
     
-    .setCenter {
-        text-align: center;
-    }
-    
     .hidden {
         display: none;
     }
+
+    /* Style buttons */
+.buttonload {
+    background-color: #4CAF50; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 12px 16px; /* Some padding */
+    font-size: 14px /* Set a font size */
+  }
+    
+  .setCenter {
+      text-align: center;
+  }

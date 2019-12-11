@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "babel src/index.js --watch --out-file dist/app-compiled.js",
-    "start": "npm run build && node build/index.js",
-    "build": "babel src -d build"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +15,9 @@
     "express": "^4.17.1",
     "morgan": "^1.9.1",
     "mqtt": "^3.0.0"
+  },
+  "engines": {
+    "node": "10.x"
   },
   "devDependencies": {
     "@babel/cli": "^7.7.4",
